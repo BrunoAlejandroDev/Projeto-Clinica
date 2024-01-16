@@ -29,8 +29,10 @@
 main {
     display: flex;
     flex-flow: column;
+    width: 100%;
 }
 
+/* HEADER DO SITE */
 .header-main {
     height: 150px;
 }
@@ -44,12 +46,14 @@ main {
     height: 160px;
 }
 
+/* CORPO DO SITE */
 .contact-article h2 {
     text-align: center;
     margin: 15px;
 }
 
 .contact-article address {
+    text-align: center;
     margin: 15px;
 }
 
@@ -61,6 +65,7 @@ main {
     padding: 5px 0;
 }
 
+/* FORMULÁRIO DE CONTATO */
 .form-article h2 {
     text-align: center;
     margin: 15px 0 5px 0;
@@ -96,6 +101,7 @@ main {
     padding: 10px 12px;
 }
 
+/* BOTÕES DO FORMULÁRIO */
 .button button {
     padding: 6px 10px;
     border-radius: 5px;

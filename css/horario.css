@@ -31,6 +31,22 @@ main {
     flex-flow: column;
 }
 
+.content-article h2 {
+    margin: 10px;
+    text-align: center;
+}
+
+/* LISTAS */
+.content-article ul li {
+    margin: 5px 20px;
+    padding: 5px 0;
+}
+
+.negrito {
+    font-weight: bold;
+}
+
+/* HEADER DO SITE */
 .header-main {
     height: 150px;
 }
@@ -51,11 +67,6 @@ tr,
 td {
     border: 1px solid black;
     border-collapse: collapse;
-}
-
-.content-article h2 {
-    margin-top: 10px;
-    text-align: center;
 }
 
 table {
